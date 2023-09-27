@@ -13,7 +13,7 @@ body{
 }
 .producto {
     width: 215px;
-    height: 340px;
+    height: 360px;
     display: grid;
     justify-items: center;
     border-radius: .3rem;
@@ -22,13 +22,19 @@ body{
 .producto h3{
     text-align: center;
     color: white;
-    margin: .5rem auto;
+    margin: 0 auto;
 
 }
 .producto-imagen {
     margin-top: 8px;
     width: 200px;
     height: 180px;
+}
+.favorito{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 2rem;
+    cursor: pointer;
 }
 button {
     border-radius: 8px;
